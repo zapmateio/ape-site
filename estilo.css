@@ -216,6 +216,7 @@ p { margin: 0; }
 .ze::before { content: ""; position: absolute; width: 380px; height: 380px; border-radius: 50%; background: rgba(255,255,255,.22); filter: blur(60px); top: -160px; left: -120px; z-index: -1; }
 .ze::after { content: ""; position: absolute; width: 340px; height: 340px; border-radius: 50%; background: rgba(195,182,255,.5); filter: blur(60px); bottom: -160px; right: -60px; z-index: -1; }
 .ze .etiqueta { color: #fff; opacity: .85; }
+.selo-pago { display: inline-block; margin-left: 8px; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,.22); border: 1px solid rgba(255,255,255,.4); font-size: 12px; font-weight: 700; vertical-align: 1px; }
 .ze h2 { font-size: clamp(30px, 4vw, 42px); margin: 10px 0 16px; }
 .ze p { opacity: .92; font-size: 17px; }
 .ze ul { padding: 0; margin: 24px 0 0; list-style: none; display: grid; gap: 12px; }
