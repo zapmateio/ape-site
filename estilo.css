@@ -75,6 +75,9 @@ p { margin: 0; }
 }
 .botao.tonal { background: var(--primaria-suave); color: var(--primaria); box-shadow: none; }
 .botao svg { width: 20px; height: 20px; }
+.acoes.centro { justify-content: center; margin-top: 0; }
+.menu a.baixar { color: #fff; background: var(--destaque); padding: 8px 16px; border-radius: 12px; }
+.menu a.baixar:hover { color: #fff; opacity: .9; }
 
 /* Abertura */
 .hero { position: relative; padding: 72px 0 40px; isolation: isolate; }
